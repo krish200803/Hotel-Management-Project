@@ -7,7 +7,7 @@ public class HotelDAOImpl implements HotelDAO {
 
     @Override
     public void save() {
-        
+
     }
 
     @Override
@@ -24,4 +24,11 @@ public class HotelDAOImpl implements HotelDAO {
     public void deleteById(int id) {
 
     }
+
+    @Override
+    public void deleteByPhone(long phoneno) {
+        
+    }
+
+
 }

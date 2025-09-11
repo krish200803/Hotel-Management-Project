@@ -11,4 +11,6 @@ public interface HotelDAO {
     public void updateAddress(int id);
 
     public void deleteById(int id);
+
+    public void deleteByPhone(long phoneno);
 }

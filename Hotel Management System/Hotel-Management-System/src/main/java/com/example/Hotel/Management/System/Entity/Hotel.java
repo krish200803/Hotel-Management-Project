@@ -16,7 +16,7 @@ public class Hotel {
     private String email;
 
     @Column(name = "Customer PhoneNo")
-    private int phoneNo;
+    private long phoneNo;
 
     @Column(name = "Customer Address")
     private String address;
@@ -24,7 +24,7 @@ public class Hotel {
     public Hotel() {
     }
 
-    public Hotel(String name, String email, int phoneNo, String address) {
+    public Hotel(String name, String email, long phoneNo, String address) {
         this.name = name;
         this.email = email;
         this.phoneNo = phoneNo;
@@ -55,7 +55,7 @@ public class Hotel {
         this.email = email;
     }
 
-    public int getPhoneNo() {
+    public long getPhoneNo() {
         return phoneNo;
     }
 
