@@ -27,7 +27,7 @@ public class HotelDAOImpl implements HotelDAO {
 
     @Override
     public void deleteByPhone(long phoneno) {
-        
+
     }
 
 
